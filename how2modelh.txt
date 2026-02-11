@@ -1,0 +1,3 @@
+qmk compile -c -kb ibm/model_m/modelh -km vial -e DFU_ARGS="-d 6b62:0000 -R" -e DFU_SUFFIX_ARGS="-p 0000 -v 6B62"
+qmk flash -kb ibm/model_m/modelh -km vial -e DFU_ARGS="-d 6b62:0000 -R" -e DFU_SUFFIX_ARGS="-p 0000 -v 6B62"
+
